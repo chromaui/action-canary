@@ -1,3 +1,15 @@
+# v13.3.6 (Mon Jan 14 2026)
+
+#### 🐛 Bug Fix
+
+- FAKE UPDATE [#1224](https://github.com/chromaui/chromatic-cli/pull/1224) ([@justin-thurman](https://github.com/justin-thurman))
+
+#### Authors: 1
+
+- Justin Thurman ([@justin-thurman](https://github.com/justin-thurman))
+
+---
+
 # v13.3.5 (Mon Jan 05 2026)
 
 #### 🐛 Bug Fix
