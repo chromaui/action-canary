@@ -1,12 +1,50 @@
-# v13.3.6 (Mon Jan 14 2026)
+# v15.1.0 (Tue Feb 10 2026)
 
-#### 🐛 Bug Fix
+#### 🚀 Enhancement
 
-- FAKE UPDATE [#1224](https://github.com/chromaui/chromatic-cli/pull/1224) ([@justin-thurman](https://github.com/justin-thurman))
+- Add support for iOS React Native projects [#1229](https://github.com/chromaui/chromatic-cli/pull/1229) ([@codykaup](https://github.com/codykaup))
+- Only upload `manifest.json`/`storybook.apk`/`storybook.app` [#1240](https://github.com/chromaui/chromatic-cli/pull/1240) ([@codykaup](https://github.com/codykaup))
 
 #### Authors: 1
 
-- Justin Thurman ([@justin-thurman](https://github.com/justin-thurman))
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v15.0.0 (Mon Feb 02 2026)
+
+#### 💥 Breaking Change
+
+- Update storybook to `10.x` & upgrade dependencies [#1228](https://github.com/chromaui/chromatic-cli/pull/1228) ([@kasperpeulen](https://github.com/kasperpeulen) [@ndelangen](https://github.com/ndelangen) [@jwir3](https://github.com/jwir3))
+
+#### 🐛 Bug Fix
+
+- Revert "Merge pull request #1228 from chromaui/norbert/further-upgrades" [#1235](https://github.com/chromaui/chromatic-cli/pull/1235) ([@jwir3](https://github.com/jwir3))
+
+#### Authors: 3
+
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+- Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+- Scott Johnson ([@jwir3](https://github.com/jwir3))
+
+---
+
+# v14.0.0 (Mon Feb 02 2026)
+
+#### 💥 Breaking Change
+
+- Update storybook to `10.x` & upgrade dependencies [#1228](https://github.com/chromaui/chromatic-cli/pull/1228) ([@kasperpeulen](https://github.com/kasperpeulen) [@ndelangen](https://github.com/ndelangen) [@jwir3](https://github.com/jwir3))
+
+#### 🐛 Bug Fix
+
+- Fix dependabot changelog output [#1227](https://github.com/chromaui/chromatic-cli/pull/1227) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 4
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+- Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+- Scott Johnson ([@jwir3](https://github.com/jwir3))
 
 ---
 
