@@ -1,3 +1,27 @@
+# v15.3.0 (Mon Mar 16 2026)
+
+#### 🚀 Enhancement
+
+- Integrate manifest generation script [#1244](https://github.com/chromaui/chromatic-cli/pull/1244) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v15.2.0 (Mon Feb 23 2026)
+
+#### 🚀 Enhancement
+
+- :sparkle: Add input parameter chromaticSha. [#1241](https://github.com/chromaui/chromatic-cli/pull/1241) ([@jwir3](https://github.com/jwir3))
+
+#### Authors: 1
+
+- Scott Johnson ([@jwir3](https://github.com/jwir3))
+
+---
+
 # v15.1.1 (Tue Feb 17 2026)
 
 #### 🐛 Bug Fix
