@@ -69,8 +69,7 @@
     "isChromatic.d.ts"
   ],
   "resolutions": {
-    "any-observable": "^0.5.1",
-    "lodash": "4.17.21"
+    "any-observable": "^0.5.1"
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",
