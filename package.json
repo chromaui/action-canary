@@ -103,7 +103,7 @@
     "@types/ws": "^8",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
-    "@vitest/coverage-v8": "^4.1.2",
+    "@vitest/coverage-v8": "^2.0.5",
     "ansi-html": "0.0.9",
     "any-observable": "^0.5.1",
     "archiver": "^5.3.0",
@@ -181,9 +181,9 @@
     "typescript-eslint": "^7.11.0",
     "util-deprecate": "^1.0.2",
     "uuid": "^8.3.2",
-    "vite": "^8.0.3",
+    "vite": "^4.4.9",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^4.1.2",
+    "vitest": "^2.0.5",
     "why-is-node-running": "^2.1.2",
     "ws": "^8.18.2",
     "xxhash-wasm": "^1.0.2",
@@ -193,17 +193,13 @@
   },
   "peerDependencies": {
     "@chromatic-com/cypress": "^0.*.* || ^1.0.0",
-    "@chromatic-com/playwright": "^0.*.* || ^1.0.0",
-    "@chromatic-com/vitest": "^0.*.* || ^1.0.0"
+    "@chromatic-com/playwright": "^0.*.* || ^1.0.0"
   },
   "peerDependenciesMeta": {
     "@chromatic-com/cypress": {
       "optional": true
     },
     "@chromatic-com/playwright": {
-      "optional": true
-    },
-    "@chromatic-com/vitest": {
       "optional": true
     }
   },
