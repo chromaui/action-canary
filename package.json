@@ -177,7 +177,7 @@
     "tmp-promise": "3.0.2",
     "ts-dedent": "^1.0.0",
     "ts-loader": "^9.2.5",
-    "tsup": "^7.2.0",
+    "tsdown": "^0.21.8",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.11.0",
     "util-deprecate": "^1.0.2",
@@ -194,17 +194,13 @@
   },
   "peerDependencies": {
     "@chromatic-com/cypress": "^0.*.* || ^1.0.0",
-    "@chromatic-com/playwright": "^0.*.* || ^1.0.0",
-    "@chromatic-com/vitest": "^0.*.* || ^1.0.0"
+    "@chromatic-com/playwright": "^0.*.* || ^1.0.0"
   },
   "peerDependenciesMeta": {
     "@chromatic-com/cypress": {
       "optional": true
     },
     "@chromatic-com/playwright": {
-      "optional": true
-    },
-    "@chromatic-com/vitest": {
       "optional": true
     }
   },
