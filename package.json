@@ -73,6 +73,9 @@
     "lodash": "4.17.21",
     "@types/minimatch": "5.1.2"
   },
+  "dependencies": {
+    "storybook": "^10.0.0"
+  },
   "devDependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.0.0",
