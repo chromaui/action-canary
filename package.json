@@ -30,9 +30,9 @@
       "import": "./isChromatic.mjs"
     },
     "./node": {
-      "types": "./dist/node.d.cts",
-      "require": "./dist/node.cjs",
-      "node": "./dist/node.cjs"
+      "types": "./dist/node.d.ts",
+      "require": "./dist/node.js",
+      "node": "./dist/node.js"
     },
     "./isChromatic": {
       "types": "./isChromatic.d.ts",
@@ -52,18 +52,18 @@
         "./isChromatic.d.ts"
       ],
       "node": [
-        "dist/node.d.cts"
+        "dist/node.d.ts"
       ]
     }
   },
   "bin": {
-    "chroma": "dist/bin.cjs",
-    "chromatic": "dist/bin.cjs",
-    "chromatic-cli": "dist/bin.cjs"
+    "chroma": "dist/bin.js",
+    "chromatic": "dist/bin.js",
+    "chromatic-cli": "dist/bin.js"
   },
   "files": [
-    "dist/*.cjs",
-    "dist/node.d.cts",
+    "dist/*.js",
+    "dist/node.d.ts",
     "isChromatic.js",
     "isChromatic.mjs",
     "isChromatic.d.ts"
@@ -177,7 +177,7 @@
     "tmp-promise": "3.0.2",
     "ts-dedent": "^1.0.0",
     "ts-loader": "^9.2.5",
-    "tsdown": "^0.21.8",
+    "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.11.0",
     "util-deprecate": "^1.0.2",
