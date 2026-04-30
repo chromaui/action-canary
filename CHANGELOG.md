@@ -1,3 +1,28 @@
+# v16.6.3 (Wed Apr 29 2026)
+
+#### 🐛 Bug Fix
+
+- Retry file upload if file deduplication fails [#1296](https://github.com/chromaui/chromatic-cli/pull/1296) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v16.6.2 (Wed Apr 29 2026)
+
+#### 🐛 Bug Fix
+
+- Fix crash when checking for CLI updates [#1305](https://github.com/chromaui/chromatic-cli/pull/1305) ([@annaet](https://github.com/annaet) [@codykaup](https://github.com/codykaup))
+
+#### Authors: 2
+
+- Anna Thomas ([@annaet](https://github.com/annaet))
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
 # v16.6.1 (Tue Apr 28 2026)
 
 #### 🐛 Bug Fix
