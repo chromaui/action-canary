@@ -221,9 +221,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "engines": {
-    "node": ">=22.0.0"
-  },
   "docs": "https://www.chromatic.com/docs/cli",
   "storybook": {
     "icon": "https://user-images.githubusercontent.com/263385/101995175-2e087800-3c96-11eb-9a33-9860a1c3ce62.gif",
