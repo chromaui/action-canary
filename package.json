@@ -70,6 +70,7 @@
   ],
   "resolutions": {
     "any-observable": "^0.5.1",
+    "es-toolkit": "1.46.0",
     "lodash": "4.17.21",
     "@types/minimatch": "5.1.2"
   },
@@ -186,12 +187,12 @@
     "tmp-promise": "3.0.2",
     "ts-dedent": "^1.0.0",
     "ts-loader": "^9.2.5",
-    "tsdown": "0.21.8",
+    "tsdown": "^0.21.8",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.11.0",
     "util-deprecate": "^1.0.2",
     "uuid": "^8.3.2",
-    "vite": "8.0.3",
+    "vite": "^8.0.3",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^4.1.2",
     "why-is-node-running": "^2.1.2",
