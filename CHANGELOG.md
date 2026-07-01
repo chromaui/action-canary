@@ -1,3 +1,113 @@
+# v18.0.0 (Wed Jul 01 2026)
+
+#### 💥 Breaking Change
+
+- Update CLI task list to render with Clack [#1390](https://github.com/chromaui/chromatic-cli/pull/1390) ([@justin-thurman](https://github.com/justin-thurman))
+
+#### 🚀 Enhancement
+
+- Implement logRenderer [#1378](https://github.com/chromaui/chromatic-cli/pull/1378) ([@justin-thurman](https://github.com/justin-thurman))
+
+#### 🐛 Bug Fix
+
+- Update upload task to log ancestor build details [#1411](https://github.com/chromaui/chromatic-cli/pull/1411) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `snapshot` to Clack [#1410](https://github.com/chromaui/chromatic-cli/pull/1410) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `verify` to Clack [#1409](https://github.com/chromaui/chromatic-cli/pull/1409) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `upload` task to Clack [#1404](https://github.com/chromaui/chromatic-cli/pull/1404) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `prepare` to Clack [#1402](https://github.com/chromaui/chromatic-cli/pull/1402) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `build` to Clack renderer [#1398](https://github.com/chromaui/chromatic-cli/pull/1398) ([@justin-thurman](https://github.com/justin-thurman))
+- Add error class to carry exit code information to `runTask` [#1397](https://github.com/chromaui/chromatic-cli/pull/1397) ([@justin-thurman](https://github.com/justin-thurman))
+- Implement a spinner renderer [#1396](https://github.com/chromaui/chromatic-cli/pull/1396) ([@justin-thurman](https://github.com/justin-thurman))
+- Adds a progress bar renderer [#1395](https://github.com/chromaui/chromatic-cli/pull/1395) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `initialize` to Clack renderer [#1393](https://github.com/chromaui/chromatic-cli/pull/1393) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `storybookInfo` to Clack [#1392](https://github.com/chromaui/chromatic-cli/pull/1392) ([@justin-thurman](https://github.com/justin-thurman))
+- Migrate `gitInfo` to Clack [#1389](https://github.com/chromaui/chromatic-cli/pull/1389) ([@justin-thurman](https://github.com/justin-thurman))
+- Implement mid-task UI updates [#1388](https://github.com/chromaui/chromatic-cli/pull/1388) ([@justin-thurman](https://github.com/justin-thurman))
+- Implement Clack-based storybook rendering [#1386](https://github.com/chromaui/chromatic-cli/pull/1386) ([@justin-thurman](https://github.com/justin-thurman))
+- Fan out `auth` and `intro` output to Clack and file logging [#1384](https://github.com/chromaui/chromatic-cli/pull/1384) ([@justin-thurman](https://github.com/justin-thurman))
+- Implement `broadcastRenderer` to fan out multiple `TaskRenderer`s [#1379](https://github.com/chromaui/chromatic-cli/pull/1379) ([@justin-thurman](https://github.com/justin-thurman))
+- Implement Clack-based task rendering and tracer bullet the `auth` task [#1358](https://github.com/chromaui/chromatic-cli/pull/1358) ([@justin-thurman](https://github.com/justin-thurman))
+
+#### Authors: 1
+
+- Justin Thurman ([@justin-thurman](https://github.com/justin-thurman))
+
+---
+
+# v17.8.0 (Mon Jun 29 2026)
+
+#### 🚀 Enhancement
+
+- Include ancestor build details on a fully TurboSnapped build [#1406](https://github.com/chromaui/chromatic-cli/pull/1406) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v17.7.2 (Fri Jun 26 2026)
+
+#### 🐛 Bug Fix
+
+- Only upload metadata files with a valid S3 path [#1408](https://github.com/chromaui/chromatic-cli/pull/1408) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v17.7.1 (Thu Jun 25 2026)
+
+#### 🐛 Bug Fix
+
+- React Native: Parse build command from config file [#1405](https://github.com/chromaui/chromatic-cli/pull/1405) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v17.7.0 (Thu Jun 25 2026)
+
+#### 🚀 Enhancement
+
+- Skip upload, verify, and snapshot tasks when detecting no changes from TurboSnap [#1394](https://github.com/chromaui/chromatic-cli/pull/1394) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v17.6.0 (Wed Jun 24 2026)
+
+#### 🚀 Enhancement
+
+- Automatically upload metadata files on TurboSnap bails [#1400](https://github.com/chromaui/chromatic-cli/pull/1400) ([@codykaup](https://github.com/codykaup))
+- Log untraced files and its matching glob [#1403](https://github.com/chromaui/chromatic-cli/pull/1403) ([@codykaup](https://github.com/codykaup))
+- Show full trace path to bail file reason [#1401](https://github.com/chromaui/chromatic-cli/pull/1401) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
+# v17.5.0 (Wed Jun 17 2026)
+
+#### 🚀 Enhancement
+
+- Add context around file adds/moves in `BaselineCheckoutFailedError` bails [#1391](https://github.com/chromaui/chromatic-cli/pull/1391) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 1
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+
+---
+
 # v17.4.1 (Thu Jun 11 2026)
 
 #### 🐛 Bug Fix
