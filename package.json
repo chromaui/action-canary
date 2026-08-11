@@ -74,6 +74,14 @@
     "lodash": "4.17.21",
     "@types/minimatch": "5.1.2"
   },
+  "dependenciesMeta": {
+    "@sentry/cli": {
+      "built": true
+    },
+    "esbuild": {
+      "built": true
+    }
+  },
   "dependencies": {
     "semver": "^7.3.5"
   },
