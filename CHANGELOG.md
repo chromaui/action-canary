@@ -1,15 +1,3 @@
-# v18.12.1 (Tue Oct 13 2026)
-
-#### 🐛 Bug Fix
-
-- List untracked files relative to the repository root [#1519](https://github.com/chromaui/chromatic-cli/pull/1519) ([@codykaup](https://github.com/codykaup))
-
-#### Authors: 1
-
-- Cody Kaup ([@codykaup](https://github.com/codykaup))
-
----
-
 # v18.12.0 (Thu Oct 08 2026)
 
 #### 🚀 Enhancement
