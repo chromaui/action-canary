@@ -1,6 +1,6 @@
 {
   "name": "chromatic",
-  "version": "18.12.3--canary.1522.38796545977.0",
+  "version": "18.13.0--canary.1525.38799591109.0",
   "description": "Automate visual testing across browsers. Gather UI feedback. Versioned documentation.",
   "keywords": [
     "storybook-addon",
