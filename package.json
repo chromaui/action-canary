@@ -1,6 +1,6 @@
 {
   "name": "chromatic",
-  "version": "18.13.8--canary.1615.41491338987.0",
+  "version": "18.13.8--canary.1616.41491327956.0",
   "description": "Automate visual testing across browsers. Gather UI feedback. Versioned documentation.",
   "keywords": [
     "storybook-addon",
@@ -87,7 +87,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^9.1.1",
+    "@actions/github": "^5.0.0",
     "@antfu/ni": "^0.21.5",
     "@auto-it/slack": "^11.1.6",
     "@clack/prompts": "^1.4.0",
@@ -140,7 +140,7 @@
     "eslint-plugin-unicorn": "^59.0.1",
     "execa": "^9.6.0",
     "fake-tag": "^2.0.0",
-    "filesize": "^10.1.0",
+    "filesize": "^11.0.29",
     "find-up": "^7.0.0",
     "formdata-node": "^6.0.3",
     "fs-extra": "^10.0.0",
