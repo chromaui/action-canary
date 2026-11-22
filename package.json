@@ -1,6 +1,6 @@
 {
   "name": "chromatic",
-  "version": "18.15.2--canary.1736.45010869164.0",
+  "version": "18.15.2--canary.1733.45011183403.0",
   "description": "Automate visual testing across browsers. Gather UI feedback. Versioned documentation.",
   "keywords": [
     "storybook-addon",
@@ -126,7 +126,7 @@
     "chalk": "^4.1.2",
     "clean-package": "^2.2.0",
     "cpy": "^8.1.2",
-    "cross-env": "^10.1.0",
+    "cross-env": "^7.0.3",
     "cross-spawn": "^7.0.2",
     "debug": "^4.3.2",
     "dotenv": "^17.4.2",
