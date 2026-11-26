@@ -1,6 +1,6 @@
 {
   "name": "chromatic",
-  "version": "18.15.4--canary.1750.45747963877.0",
+  "version": "18.15.4--canary.1731.45748826300.0",
   "description": "Automate visual testing across browsers. Gather UI feedback. Versioned documentation.",
   "keywords": [
     "storybook-addon",
@@ -166,6 +166,7 @@
     "prettier": "^3.2.5",
     "read-package-up": "^12.0.0",
     "simple-plist": "^1.4.0",
+    "smol-toml": "^1.9.0",
     "snyk-nodejs-lockfile-parser": "2.10.4",
     "snyk-nodejs-plugin": "2.2.1",
     "storybook": "^10.6.5",
